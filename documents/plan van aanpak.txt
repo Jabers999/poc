@@ -1,18 +1,15 @@
 Stappen tot PoC:
--1 )! Nummmering requirements van Eboost
-	! Werken aan de hand van voorbeelden van Internet
-	! sql file aanpassen met constraints cascade
+-1 )! Nummmering requirements van Eboost voor Jaber en Beaujay
+	! Werken aan de hand van voorbeelden van Internet voor Jaber en Beayjay
+	! Office files op OneDrive, code op GitHub
+
 
 
 0) !! use case en beschrijving bijwerken volgens Frans.
-1) ERD maken aan de hand van een de use case;
-	accounts		userinfo
-	----------		------------
-	accountid		accountid
-	roles			name
-2) RELATIONEEL MODEL maken aan de hand van ERD.
-3) SQL schrijven voor Create DB
-	(inclusief 4 accounts, kenneth is klant)
+// 1) ERD maken aan de hand van een de use case
+// 2) RELATIONEEL MODEL maken aan de hand van ERD.
+// 3) SQL schrijven voor Create DB
+3) SQL code voor insert schrijven (inclusief 4 accounts, kenneth is klantrol)
 4) Klassediagram maken adhv collegevoorbeeld
 	accounts -> users
 5) Architectuur wordt MVC
