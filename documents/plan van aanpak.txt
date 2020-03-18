@@ -1,16 +1,17 @@
 Stappen tot PoC:
--1 )! Nummmering requirements van Eboost voor Jaber en Beaujay
-	! Werken aan de hand van voorbeelden van Internet voor Jaber en Beayjay
+	! Nummmering requirements van Eboost voor Jaber
 	! Office files op OneDrive, code op GitHub
+	! advies rapport Beaujay & Jaber
+	! code schrijven (armando + bas)
+	! document op spelling en tekst controleren consistentie (jaber)
+	! sequence en klasse diagram (bas + armando)
+	! use case en beschrijving bijwerken volgens Frans (armando + bas)
 
-
-
-0) !! use case en beschrijving bijwerken volgens Frans.
 // 1) ERD maken aan de hand van een de use case
 // 2) RELATIONEEL MODEL maken aan de hand van ERD.
 // 3) SQL schrijven voor Create DB
 3) SQL code voor insert schrijven (inclusief 4 accounts, kenneth is klantrol)
-4) Klassediagram maken adhv collegevoorbeeld
+4) Klassediagram maken adhv college voorbeeld
 	accounts -> users
 	users----
 5) Architectuur wordt MVC
@@ -26,10 +27,11 @@ Stappen tot PoC:
 	View: usermenu.php, userinfo.php, useredit.php
 	Controller: UserController.php (functie aanroepen: save, edit)
 	Model: accountklasse.php, userinfoklasse.php (functies uitvoeren sql)
-	PDO: voor sdaadwerkelijke sql verbinding
+	PDO: voor daadwerkelijke sql verbinding
 	VERSCHIL: Model kent eboost en geen database, PDO kent geen eboost wel database
 	dus onafhankelijkheid.
 6) Sequence diagram maken
    USER:	VIEW		CONTROLLER		MODEL			PDO
         	html files	functies aanroepen	functies uitvoeren	database bijwerken
-7) Code scchrijven
+7) Code schrijven
+8) BS gaat wijzigen
