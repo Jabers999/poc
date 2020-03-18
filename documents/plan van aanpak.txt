@@ -35,3 +35,4 @@ Stappen tot PoC:
         	html files	functies aanroepen	functies uitvoeren	database bijwerken
 7) Code schrijven
 8) BS gaat wijzigen
+sdflksdf;sdjknfd
