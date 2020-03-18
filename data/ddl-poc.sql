@@ -47,7 +47,7 @@ DROP TABLE IF EXISTS Roles;
 CREATE TABLE `Roles`(
   `RoleID` INT(10) PRIMARY KEY,
   `Description` varchar(255)
- );
+) Engine=INNODB;
   
   
  /* Table structure for table usersRoles */
@@ -58,4 +58,5 @@ CREATE TABLE `UsersRoles`(
   `AccountID` INT(10),
   FOREIGN KEY (RoleID) REFERENCES Roles(RoleID),
   FOREIGN KEY (AccountID) REFERENCES Accounts(AccountID)
-);
+  ON UPDATE CASCADE ON DELETE CASCADE
+) Engine=INNODB;
