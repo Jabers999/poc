@@ -12,6 +12,7 @@ Stappen tot PoC:
 3) SQL code voor insert schrijven (inclusief 4 accounts, kenneth is klantrol)
 4) Klassediagram maken adhv collegevoorbeeld
 	accounts -> users
+	users----
 5) Architectuur wordt MVC
    Keuze van Frans
 	Architectuur				| PHP

@@ -48,7 +48,7 @@ CREATE TABLE `Roles`(
   `RoleID` INT(10) PRIMARY KEY,
   `Description` varchar(255)
 ) Engine=INNODB;
-  
+
   
  /* Table structure for table usersRoles */
 DROP TABLE IF EXISTS UsersRoles;
