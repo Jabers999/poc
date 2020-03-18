@@ -1,1 +1,37 @@
-..
+Stappen tot PoC:
+-1 )! Nummmering requirements van Eboost
+	! Werken aan de hand van voorbeelden van Internet
+	! sql file aanpassen met constraints cascade
+
+
+0) !! use case en beschrijving bijwerken volgens Frans.
+1) ERD maken aan de hand van een de use case;
+	accounts		userinfo
+	----------		------------
+	accountid		accountid
+	roles			name
+2) RELATIONEEL MODEL maken aan de hand van ERD.
+3) SQL schrijven voor Create DB
+	(inclusief 4 accounts, kenneth is klant)
+4) Klassediagram maken adhv collegevoorbeeld
+	accounts -> users
+5) Architectuur wordt MVC
+   Keuze van Frans
+	Architectuur				| PHP
+	View	Controller 	Model 		| PDO
+	HTML	GET en POST	ProjectDao	| DAO
+   Keuze van Eboost
+	Architectuur				| PHP
+	View	Controller 	Model 		| PDO
+	HTML	GET en POST	AccountDao	| DAO
+	HTML	GET en POST	UserInfoDao	| DAO
+	View: usermenu.php, userinfo.php, useredit.php
+	Controller: UserController.php (functie aanroepen: save, edit)
+	Model: accountklasse.php, userinfoklasse.php (functies uitvoeren sql)
+	PDO: voor sdaadwerkelijke sql verbinding
+	VERSCHIL: Model kent eboost en geen database, PDO kent geen eboost wel database
+	dus onafhankelijkheid.
+6) Sequence diagram maken
+   USER:	VIEW		CONTROLLER		MODEL			PDO
+        	html files	functies aanroepen	functies uitvoeren	database bijwerken
+7) Code scchrijven
